@@ -7,10 +7,80 @@
     border: none;
 }
 
-.containr_hero {
-    max-width: 1500px;
+.container_hero {
+    max-width: 1600px;
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 31px;
+}
 
 
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 66px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login {
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid transparent;
+
+}
+
+.login a:nth-child(2) {
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.login a:nth-child(2):hover {
+    color: #4318FF;
+    background-color: #E9E3FF;
+    transition: all 0.4s linear;
+}
+
+.heroes {
+    display: flex;
+    gap: 20px;
+}
+
+.hero_left {
+    margin: auto 0;
+    padding-right: 400px;
+
+    h1{
+        font-size: 62px;
+        font-weight: 700;
+        color: #1B2559;
+    }
+    p{
+        color: #68769F;
+    }
+
+    img{
+        width: 400px;
+    }
+}
+
+.hero_right{
+    padding-top: 50px;
+}
+
+.hero_right img{
+    width: 550px;
+    height: 750px;
+}
+
+.btns{
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+}
