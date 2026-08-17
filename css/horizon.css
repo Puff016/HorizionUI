@@ -7,9 +7,15 @@
     border: none;
 }
 
-.container_hero {
+/* Header */
+
+.container {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+header{
+    margin-bottom: 80px;
 }
 
 nav {
@@ -23,15 +29,15 @@ nav {
 .links ul {
     display: flex;
     list-style: none;
-    gap: 66px;
-    font-size: 18px;
-    font-weight: 500;
+    gap: 48px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .login {
     gap: 60px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     border: 1px solid transparent;
 
 }
@@ -44,7 +50,8 @@ nav {
 .login a:nth-child(2):hover {
     color: #4318FF;
     background-color: #E9E3FF;
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
+    font-weight: 700;
 }
 
 .heroes {
@@ -54,33 +61,115 @@ nav {
 
 .hero_left {
     margin: auto 0;
-    padding-right: 400px;
+    padding-right: 450px;
 
-    h1{
-        font-size: 62px;
-        font-weight: 700;
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
         color: #1B2559;
     }
-    p{
+
+    p {
         color: #68769F;
+        font-size: 16px;
+        font-weight: 500;
     }
 
-    img{
+    img {
         width: 400px;
+        gap: 10px;
     }
 }
 
-.hero_right{
+.hero_right {
     padding-top: 50px;
 }
 
-.hero_right img{
+.hero_right img {
     width: 550px;
     height: 750px;
 }
 
-.btns{
+.btns {
     display: flex;
-    padding: 30px;
-    gap: 50px;
+    padding-top: 24px;
+    gap: 20px;
+
+    button {
+        padding: 16px 28px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .btn1 {
+    background-color: rgba(67, 24, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    }
+
+    .btn2{
+    background-color: transparent;
+    color: rgba(27, 37, 89, 1);
+    }
+    
+}
+
+/* Main */
+
+/* Section1 */
+
+.work_title{
+    margin-top: 120px;
+    text-align: center;
+    h1{
+        font-size: 36px;
+        font-weight: 800;
+        color: rgba(27, 37, 89, 1);
+    }
+
+    p{
+        color: rgba(104, 118, 159, 1);
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.create_account{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    gap: 40px;
+    border: 1px solid;
+    i{
+        font-size: 32px;
+        padding: 20px 0;
+    }
+}
+
+.move{
+    display: flex;
+    gap: 18px;
+    padding-right: 40px 0;
+    h4{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 500;
+        color: rgba(104, 118, 159, 1);
+    }
+}
+
+.number{
+    
+    border: 1px solid rgba(67, 24, 255, 1);
+    border-radius: 100%;
+    p{
+    color: rgba(67, 24, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 10px;
+    }
 }
