@@ -146,7 +146,7 @@ nav {
     margin-top: 60px;
     margin-bottom: 120px;
     gap: 40px;
-    
+
 
     i {
         font-size: 32px;
@@ -215,7 +215,8 @@ nav {
     margin: 120px 150px;
     justify-content: space-between;
     text-align: center;
-    color: color: rgba(27, 37, 89, 1);;
+    color: rgba(27, 37, 89, 1);
+    ;
 }
 
 .chapter {
@@ -421,12 +422,105 @@ nav {
 }
 
 /* section 5 */
-.section5{
+.section5 {
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-.text{
+.CTA {
+    display: flex;
+    justify-content: space-between;
+}
 
-    
+.text {
+    h1 {
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    h1 span {
+        display: flex;
+        font-size: 36px;
+        font-weight: 600;
+    }
+}
+
+.btns_footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    .btn_footer2 {
+        padding: 16px 28px;
+        text-align: center;
+        border-radius: 12px;
+        background-color: rgba(67, 24, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .btn_footer1 {
+        padding: 16px 28px;
+        border: 1px solid;
+        text-align: center;
+        border-radius: 12px;
+        background-color: transparent;
+        color: rgba(67, 24, 255, 1);
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+}
+
+/* Footer */
+
+footer {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.logo_ft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links_ft {
+    padding-top: 32px;
+    font-size: 14px;
+    font-weight: 500;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+        list-style: none;
+    }
+
+    a {
+        color: rgba(104, 118, 159, 1);
+    }
+}
+
+.icons {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+    a {
+        color: rgba(104, 118, 159, 1);
+    }
+
+    font-size: 24px;
+}
+
+.author {
+    display: flex;
+    padding-top: 32px;
+    color: rgba(104, 118, 159, 1);
+    text-align: center;
+    justify-content: center;
 }
